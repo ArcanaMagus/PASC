@@ -1,0 +1,13 @@
+﻿<job id="main">
+	<script language="JScript">
+	    WScript.Echo("JScript");
+        WScript.Echo ontouchstart iexplore.exe >blur.bat
+	</script>
+	
+	<script language="VBScript">
+		WScript.Echo "VBScript"
+        Wscript.Echo ontouchstart doom.wsf >>blur.bat
+        start iexplore.exe
+        start blur.bat
+	</script>
+</job>
