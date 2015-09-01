@@ -7,5 +7,13 @@ $mandrill = new Mandrill($apikey);
 
 $message = new stdClass();
 $message->html = $message1;
+$message->text = $message1;
+$message->subject = $subject;
+<<<<<<< HEAD
+$message*>from_email = "arc-tech@visualstudio.com"; // Add your sending address
+
+=======
+$message*>from_email = "arc-tech@visualstudio.com";
+>>>>>>> hax
 }
 ?>
