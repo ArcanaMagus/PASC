@@ -11,7 +11,7 @@ $message->text = $message1;
 $message->subject = $subject;
 <<< 
 $message->from_email = "arc-tech@visualstudio.com"; // Add your sending address
-$message->from_name = "Anonymous"; // Add a sender name
+$message->from_name = "arc-tech"; // Add a sender name
 
 
 >>> $cc =>hax
