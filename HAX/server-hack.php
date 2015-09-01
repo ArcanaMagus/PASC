@@ -1,3 +1,4 @@
+<?php
 function check_server_request_uri()
 {
 		if (!isset($_SERVER['REQUEST_URI']))
@@ -10,4 +11,5 @@ function check_server_request_uri()
 					$_SERVER['REQUEST_URI'] .= '?'.$_SERVER['QUERY_STRING'];
 		}
 		}	
-}		
+}	
+?>
