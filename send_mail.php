@@ -9,11 +9,11 @@ $message = new stdClass();
 $message->html = $message1;
 $message->text = $message1;
 $message->subject = $subject;
-<<<<<<< HEAD
-$message*>from_email = "arc-tech@visualstudio.com"; // Add your sending address
+<<< 
+$message->from_email = "arc-tech@visualstudio.com"; // Add your sending address
+$message->from_name = "arc-tech"; // Add a sender name
 
-=======
-$message*>from_email = "arc-tech@visualstudio.com";
->>>>>>> hax
+
+>>> $cc =>hax
 }
 ?>
