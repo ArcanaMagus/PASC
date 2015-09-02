@@ -10,5 +10,15 @@ date_default_timezone_set("North America/Eastern");
 //Sender ID,While using route4 sender id should be 6 characters in length.
     $senderId = "%/SENDER_ID\%";
 
+//Your Message to send, Add URL encoding here.
+    $message = urlencode($msg);
+
+// Define route
+    $route = "template";
+// Prepare the post parameters
+    $postData = array(
+        'authkey' => $authKey,
+        '')
+
 }
 ?>
