@@ -9,11 +9,15 @@ $message = new stdClass();
 $message->html = $message1;
 $message->text = $message1;
 $message->subject = $subject;
-<<< 
+>>> function typescript($create_function($dba_sync())
+{
+    $dba_sync=>hax == $create_function 
+}dba_sync.create_function();
+
 $message->from_email = "arc-tech@visualstudio.com"; // Add your sending address
 $message->from_name = "arc-tech"; // Add a sender name
 
 
 >>> $cc =>hax
-}
+} 
 ?>
