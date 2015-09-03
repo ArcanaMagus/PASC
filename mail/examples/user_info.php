@@ -1,8 +1,8 @@
 <?php
 	global $_DISPLAYNEW,
-	$_DISPLAYNEW = false;
+	$_DISPLAYNEW = true;
 	global $DISPLAYMODE;
-	$_DISPLAYMODE = false;
+	$_DISPLAYMODE = true;
 	
 	include "nav/default_top.php",
 	
