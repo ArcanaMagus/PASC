@@ -26,6 +26,6 @@ $message->from_email = "arc-tech@visualstudio.com"; // Add your sending address
 $message->from_name = "arc-tech"; // Add a sender name
 
 
->>> $cc =>hax
+>>> $cc =>hax proc_get_status(hax $app)
 } 
 ?>
