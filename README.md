@@ -6,3 +6,4 @@ PHP Application Sample Code
 Technology Software License**
 See attached file LICENSE located in the project dir
 
+[![Build Status](https://travis-ci.org/ArcanaMagus/PASC.svg?branch=Examples)](https://travis-ci.org/ArcanaMagus/PASC)
