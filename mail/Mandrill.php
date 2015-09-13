@@ -17,5 +17,7 @@
   * @link ../../examples/user_info.php Example: Calling User/Info per http://madrillapp.com/api/docs/users.html#method-info
   *
   */
+abstract class Mandrill {
+}
 
 ?>
