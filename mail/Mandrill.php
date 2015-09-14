@@ -20,11 +20,18 @@
 abstract class Mandrill {
     /**
      *  Stores the operating system state. Null means the state has not been determined yet.
-     *  @ since 1.0
+     *  @since 1.0
      *  @dynamic
      *  @ignore
      */
     private static $is_cli          = null;
+
+    /**
+     * The current Mandrill PHP lib version
+     * @since 1.0
+     * @dynamic
+     * @ignore
+     */
 }
 
 ?>
