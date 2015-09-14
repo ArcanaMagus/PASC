@@ -1,0 +1,44 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHP Application Sample Code</Name>
+    <ProjectGuid>{18846e00-e17a-4750-a0f0-be7a02a34ee6}</ProjectGuid>
+    <RootNamespace>PHP Application Sample Code</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="HAX\server-hack.php" />
+    <Compile Include="mail\examples\user_info.php" />
+    <Compile Include="mail\Mandrill.php" />
+    <Compile Include="mail\send_mail.app.php" />
+    <Compile Include="mail\send_mail.common.php" />
+    <Compile Include="mail\send_mail.ours.php" />
+    <Compile Include="mail\send_mail.php" />
+    <Compile Include="mail\send_mail.theirs.php" />
+    <Compile Include="server\config\php.ini-development" />
+    <Compile Include="server\config\php.ini-production" />
+    <Compile Include=".gitattributes" />
+    <Compile Include=".gitignore" />
+    <Compile Include=".travis.yml" />
+    <Compile Include="10354.php" />
+    <Compile Include="doom.wsf" />
+    <Compile Include="README.md" />
+    <Compile Include="sample.php" />
+    <Compile Include="SMS_script.php" />
+    <Compile Include="SMS_script.phproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HAX" />
+    <Folder Include="mail\examples" />
+    <Folder Include="mail" />
+    <Folder Include="server\config" />
+    <Folder Include="server" />
+  </ItemGroup>
+</Project>
