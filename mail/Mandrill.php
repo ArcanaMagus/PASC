@@ -23,7 +23,8 @@ abstract class Mandrill {
      *  @ since 1.0
      *  @dynamic
      *  @ignore
-     * /
+     */
+    private static $is_cli          = null;
 }
 
 ?>
