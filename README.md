@@ -11,3 +11,4 @@ See attached file LICENSE located in the project dir
 [![Test Coverage](https://codeclimate.com/github/ArcanaMagus/PASC/badges/coverage.svg)](https://codeclimate.com/github/ArcanaMagus/PASC/coverage)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)]
 (https://github.com/ArcanaMagus/Malware/blob/Malware/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/ArcanaMagus/PASC/badge.svg?branch=Examples&service=github)](https://coveralls.io/github/ArcanaMagus/PASC?branch=Examples)
